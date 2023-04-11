@@ -1,0 +1,23 @@
+
+body
+{ 
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background-image: url(sign.jpg);
+     background-size: cover;
+     background-position: center;
+}
+
+button{
+    color: #fff;
+    width: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+ 

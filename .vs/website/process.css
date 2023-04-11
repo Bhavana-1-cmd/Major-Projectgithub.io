@@ -1,0 +1,42 @@
+
+body
+{ 
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background-image: url(sign.jpg);
+     background-size: cover;
+     background-position: center;
+}
+
+button{
+    
+    width: 40%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 30px ;
+    border: none;
+    outline: none;
+     background-color: rgb(255, 238, 213); 
+    cursor: pointer;
+    text-align: center;
+    
+}
+form{
+    text-align: center;
+}
+ h2{
+    width: 1100px;
+    font-family: sans-serif ;
+    text-align: center ;
+    color: #01080cc8;
+    font-size: 66px;
+    /* background-color: burlywood; */
+    border-radius:10px;
+    margin : 2px;
+    padding: 10px;
+  }
+
+
+       

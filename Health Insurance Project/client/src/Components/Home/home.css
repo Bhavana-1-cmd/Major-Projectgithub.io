@@ -1,0 +1,29 @@
+.home-container{
+
+ 
+}
+
+.home-container::before{
+    content: "";
+    position: absolute;
+    background-image: url("../../Assets/v.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   z-index: -1              ;
+    top: 0;bottom: 0;left: 0;right: 0;
+    height: 100vh;
+}
+
+
+.home-btn{
+   width: 50%;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 24px;
+}
+
+.home-btn Link{
+    text-decoration: none;
+    color: white;
+}
