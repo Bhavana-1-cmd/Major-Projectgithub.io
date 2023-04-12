@@ -112,6 +112,11 @@ const Navbar = () => {
         >
           Team
         </Link>
+        
+        <Link className="nav-link" to="/Admin">
+          Admin
+        </Link>
+
         <Link to="/Auth" className='navbar-item nav-link'>Login</Link>
             
     

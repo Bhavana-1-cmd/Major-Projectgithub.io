@@ -3,6 +3,7 @@ import React from "react";
 const about = () => {
   return (
     <div>
+
       <p>
         {" "}
         Claims Services means investigating, preparing, submitting and handling

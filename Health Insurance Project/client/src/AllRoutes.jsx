@@ -9,6 +9,8 @@ import Insurance from './Pages/Insurance/insurance';
 import Contact from './Pages/contact/contact'
 import Team  from './Pages/Team/team'
 import Services  from './Pages/services/services' 
+import Admin  from './Pages/Table/Admin'
+
 
 const AllRoutes = () => {
   return (
@@ -21,6 +23,8 @@ const AllRoutes = () => {
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Team' element={<Team/>}/>
         <Route path='/Services' element={<Services/>}/>
+        <Route path='/Admin' element={<Admin/>}/>
+        
         
 
       </Routes>
