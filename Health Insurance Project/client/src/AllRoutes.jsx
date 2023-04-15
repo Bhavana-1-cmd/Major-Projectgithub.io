@@ -10,6 +10,8 @@ import Contact from './Pages/contact/contact'
 import Team  from './Pages/Team/team'
 import Services  from './Pages/services/services' 
 import Admin  from './Pages/Table/Admin'
+import HostpitalStaff  from './Pages/Table/HospitalStaff'
+import Patient  from './Pages/Table/Patient'
 
 
 const AllRoutes = () => {
@@ -24,6 +26,8 @@ const AllRoutes = () => {
         <Route path='/Team' element={<Team/>}/>
         <Route path='/Services' element={<Services/>}/>
         <Route path='/Admin' element={<Admin/>}/>
+        <Route path='/HospitalStaff' element={<HostpitalStaff/>}/>
+        <Route path='/Patient' element={<Patient/>}/>
         
         
 

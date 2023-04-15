@@ -117,6 +117,14 @@ const Navbar = () => {
           Admin
         </Link>
 
+        <Link className="nav-link" to="/HospitalStaff">
+          HospitalStaff
+        </Link>
+
+        <Link className="nav-link" to="/Patient">
+          Patient
+        </Link>
+
         <Link to="/Auth" className='navbar-item nav-link'>Login</Link>
             
     
