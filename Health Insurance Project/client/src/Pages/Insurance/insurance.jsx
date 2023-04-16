@@ -33,7 +33,7 @@ const Insurance = () => {
   }
 
   return (
-    <div>
+    <div className='insuranceContainer' style={{padding:"2rem",width:"60%",margin:"auto"}}>
       <h1>Apply for new insurace</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor='name' ><h3>Name</h3></label>
